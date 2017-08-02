@@ -1,3 +1,5 @@
+body { background-color: #fff; }
+
 .container {
   display: flex; /* or inline-flex */
   justify-content: center;
@@ -26,6 +28,18 @@
     height: 200px;
 }
 
+.item.topic {
+    flex: 2 100%;
+    height: 100px;
+    page-break-before: always;
+    break-before: always;
+    break-after: always;
+}
+
+.item.topic em {
+    font-style: italic;
+}
+
 .item.wide {
     flex: 2 100%;
     height: 100px;
@@ -41,10 +55,22 @@ p {
     padding: 10px;
 }
 
-.item.physical {
-    background-image: url("rasberry.jpg");
+.item h2 {
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
 
+.item.complex {
+    flex: 2 100%;
+    background-image: url("complex.jpg");
+}
+.item.phyvir {
+    background-image: url("phyvir.svg");
+}
+
+.item.oneamong {
+    background-image: url("one-among-others.jpg");
+}
 .item.band {
     height: 400px;
     background-image: url("band.jpg");
@@ -61,37 +87,33 @@ p {
     font-size: 30px;
 }
 
-.item.disposable {
-    background-image: url("disposable.jpg");
+.item.beaconpic {
+    background-image: url("b-bs-you.svg");
+}    
+
+em {
+    font-size: 16px; 
+    padding-right: 1px;
+    font-style: normal;
+  	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
 }
 
-.item.eleven {
-    background-image: url("eleven.jpg");
-}
+.item.disposable { background-image: url("disposable.jpg"); }
 
-.item.encryption {
-    background-image: url("encryption.jpg");
-}
+.item.eleven {background-image: url("eleven.jpg");}
 
-.item.privacy {
-    background-image: url("privacy.jpg");
-}
+.item.encryption {background-image: url("encryption.jpg");}
 
-.item.kiss {
-    background-image: url("kiss.jpg");
-}
+.item.privacy {background-image: url("privacy.jpg");}
 
-.item.onewaypic {
-    background-image: url("oneway.jpg");
-}
+.item.kiss {background-image: url("kiss.jpg");}
+
+.item.onewaypic {background-image: url("oneway.jpg");}
 
 .item.spawn { height: 250px; }
 
 .item.replace { height: 250px; }
 
-.item.virtual {
-    background-image: url("virtual.jpg");
-}
 /* 
 .c1 { background-color: #555;}
 .c2 { background-color: #fff;}
