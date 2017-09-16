@@ -1,11 +1,14 @@
+.page-content {
+    padding-top: 0px;
+}
+
 .page {
     min-height: 300px;
     page-break-after: always;
-    
 }
 
 .row {
-    margin-top: 10px;
+    margin-top: 70px;
     display: flex;
     width: 100%;
     min-height: 180px;
@@ -35,7 +38,7 @@
         rgba(0, 0, 0, 0.1), 
         rgba(0,0,0, 0.3) ), 
         url(beacon.jpg);
-    background-position: 0 70%;
+    background-position: 0 60%;
     background-size: cover;
     height: 500px;
     color: #fff;
@@ -56,3 +59,9 @@
 .cell.pic.encryption { background-image: url("encryption.jpg");}
 .cell.pic.oneway { background-image: url("oneway.jpg");}
 .cell.pic.disposable { background-image: url("disposable.jpg");}
+
+@media print {
+    .row {
+        margin-top: 10px;
+    }
+ }
