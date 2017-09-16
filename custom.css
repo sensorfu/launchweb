@@ -1,160 +1,58 @@
-body { background-color: #fff; }
-
-.container {
-  display: flex; /* or inline-flex */
-  justify-content: center;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: center;
+.page {
+    min-height: 300px;
+    page-break-after: always;
+    
 }
 
-.item {
-    height: 300px;
-    background: #fff;
-    padding: 0px;
-    text-align: center;
+.row {
     margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-    flex-basis: 50%; 
-    font-family:  "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-x: center;
+    display: flex;
+    width: 100%;
+    min-height: 180px;
+    justify-content: center;
 }
 
-.item.short {
-    height: 200px;
+.row.center { align-items: center; }    
+
+.cell {
+    width: 47%;
+    padding: 20px;
+    min-height: 100px;
+    text-align: center;
 }
 
-.item.topic {
+.cell.long {
+    height: 700px;
+}
+
+.cell.wide {
     flex: 2 100%;
-    height: 100px;
-    page-break-before: always;
-    break-before: always;
-    break-after: always;
 }
 
-.item.topic em {
-    font-style: italic;
-}
-
-.item.wide {
-    flex: 2 100%;
-    height: 100px;
-    background-color: #555;
-    color: #fff;
-    page-break-before: always;
-    break-before: always;
-    break-after: always;
-
-}
-
-p {
-    padding: 10px;
-}
-
-.item h2 {
-    margin-top: 50px;
-    margin-bottom: 0px;
-}
-
-.item.complex {
-    flex: 2 100%;
-    background-image: url("complex.jpg");
-}
-.item.phyvir {
-    background-image: url("phyvir.svg");
-}
-
-.item.oneamong {
-    background-image: url("one-among-others.jpg");
-}
-.item.band {
-    height: 400px;
-    background-image: url("band.jpg");
-}
-
-.item.beacon {
-    background: radial-gradient(farthest-side at 50% 100%,rgba(0, 0, 0, 0.1), rgba(0,0,0, 0.3) ), url(beacon.jpg); 
-    /* https://www.pexels.com/photo/white-light-house-under-white-sky-179099/ */
-    flex: 2 100%;
-    background-size: cover;
+.cell.wide.beacon {
+    max-height: 380px;
+    background: radial-gradient(farthest-side at 50% 100%,
+        rgba(0, 0, 0, 0.1), 
+        rgba(0,0,0, 0.3) ), 
+        url(beacon.jpg);
     background-position: 0 70%;
+    background-size: cover;
     height: 500px;
     color: #fff;
     font-size: 30px;
 }
 
-.item.beaconpic {
-    background-image: url("b-bs-you.svg");
-}    
-
-em {
-    font-size: 16px; 
-    padding-right: 1px;
-    font-style: normal;
-  	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+.cell.pic {
+   background-repeat: no-repeat; 
+   min-height: 250px;
+   background-size: contain;
 }
 
-.item.disposable { background-image: url("disposable.jpg"); }
-
-.item.eleven {background-image: url("eleven.jpg");}
-
-.item.encryption {background-image: url("encryption.jpg");}
-
-.item.privacy {background-image: url("privacy.jpg");}
-
-.item.kiss {background-image: url("kiss.jpg");}
-
-.item.onewaypic {background-image: url("oneway.jpg");}
-
-.item.spawn { height: 250px; }
-
-.item.replace { height: 250px; }
-
-/* 
-.c1 { background-color: #555;}
-.c2 { background-color: #fff;}
-.c3 { background-color: #888;}
-.c4 { background-color: #aaa;}
- */
-
-img { 
-  object-fit: cover;
-}
-
-@media only screen
-and (max-width : 600px) {
-    .item {
-        flex-basis: 100%;
-        height: 250px;}
-    .t1 { order: 1; }
-    .c1 { order: 2; }
-    .t2 { order: 3; }
-    .c2 { order: 4; }
-    .t3 { order: 5; }
-    .c3 { order: 6; }
-    .item.band {
-    height: 300px;
-}
-
-@media print {
-    .item.wide {
-        break-before: always;
-        break-after: always;
-        background-color: #ff0;
-    }
-    h2 {
-        page-break-before: always;
-        page-break-after: always;
-    }
-
-}
-
-div.wrapper {
-    /* margin: 0px; */
-    align-content: center;
-    max-width: 1000px;
-}
+.cell.pic.beaconpic { background-image: url("beaconpic.svg");}
+.cell.pic.physical { background-image: url("physical.svg");}
+.cell.pic.virtual { background-image: url("virtual.svg");}
+.cell.pic.oneamong { background-image: url("one-among-others.svg");}
+.cell.pic.complex { background-image: url("complex.jpg");}
+.cell.pic.encryption { background-image: url("encryption.jpg");}
+.cell.pic.oneway { background-image: url("oneway.jpg");}
+.cell.pic.disposable { background-image: url("disposable.jpg");}
