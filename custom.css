@@ -51,7 +51,7 @@
    background-size: contain;
 }
 
-.cell.pic.beaconpic { background-image: url("beaconpic.svg");}
+.cell.pic.flow { background-image: url("flow.svg");}
 .cell.pic.physical { background-image: url("physical.svg");}
 .cell.pic.virtual { background-image: url("virtual.svg");}
 .cell.pic.oneamong { background-image: url("one-among-others.svg");}
