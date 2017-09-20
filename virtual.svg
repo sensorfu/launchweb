@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 701 613" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;">
-    <g id="virtual" transform="matrix(1,0,0,0.954814,857,0)">
-        <rect x="-857" y="0" width="701" height="641.787" style="fill:none;"/>
-        <clipPath id="_clip1">
-            <rect x="-857" y="0" width="701" height="641.787"/>
-        </clipPath>
-        <g clip-path="url(#_clip1)">
-            <g transform="matrix(1,0,0,1.04732,-826.438,-29.7048)">
-                <path id="Big" d="M603.64,35.73C609.17,35.73 613.64,40.21 613.64,45.73C613.64,155.09 613.64,473.16 613.64,582.51C613.64,588.03 609.17,592.51 603.64,592.51C488.19,592.51 151.81,592.51 36.36,592.51C30.83,592.51 26.36,588.03 26.36,582.51C26.36,473.16 26.36,155.09 26.36,45.73C26.36,40.21 30.83,35.73 36.36,35.73C151.81,35.73 488.19,35.73 603.64,35.73Z" style="fill-opacity:0;fill-rule:nonzero;stroke:black;stroke-width:9px;"/>
-                <g id="Title" transform="matrix(1,0,0,1,-79.2574,13)">
-                    <text x="83.286px" y="614.819px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:28.139px;">Beacons ship as physical or virtual appliances.</text>
-                </g>
-                <g id="Virtual" transform="matrix(3.37088,0,0,3.37088,-803.498,-1218.76)">
-                    <g transform="matrix(0.873332,0,0,0.828052,62.6252,348.44)">
-                        <clipPath id="_clip2">
-                            <path d="M220.937,106.696L311.367,56.664C280.929,61.93 288.549,64.555 334.226,64.555C367.543,64.555 344.725,67.646 354.839,73.44C382.203,89.112 395.348,61.293 400.391,156.2C400.64,160.906 402.858,167.073 402.858,171.857C402.858,171.857 391.959,176.734 370.147,186.474C304.174,181.239 263.885,180.462 249.28,184.128C241.991,185.976 239.207,177.511 232.745,175.274C215.742,169.341 210.547,185.635 213.193,164.696C214.226,156.526 216.803,137.203 220.937,106.696Z"/>
-                        </clipPath>
-                        <g clip-path="url(#_clip2)">
-                            <g transform="matrix(0.339686,-0,-0,0.358261,190.848,25.9998)">
-                                <use xlink:href="#_Image3" x="63.864" y="85.591" width="560.272px" height="362.332px" transform="matrix(0.998702,0,0,0.99816,0,0)"/>
+    <g transform="matrix(1,0,0,1,0,-714.633)">
+        <g id="virtual" transform="matrix(1,0,0,0.954814,857,714.633)">
+            <rect x="-857" y="0" width="701" height="641.787" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="-857" y="0" width="701" height="641.787"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(1,0,0,1.04732,-826.438,-29.7048)">
+                    <path id="Big" d="M603.64,35.73C609.17,35.73 613.64,40.21 613.64,45.73C613.64,155.09 613.64,473.16 613.64,582.51C613.64,588.03 609.17,592.51 603.64,592.51C488.19,592.51 151.81,592.51 36.36,592.51C30.83,592.51 26.36,588.03 26.36,582.51C26.36,473.16 26.36,155.09 26.36,45.73C26.36,40.21 30.83,35.73 36.36,35.73C151.81,35.73 488.19,35.73 603.64,35.73Z" style="fill-opacity:0;fill-rule:nonzero;stroke:rgb(51,51,51);stroke-width:9px;"/>
+                    <g id="Virtual" transform="matrix(3.37088,0,0,3.37088,-803.498,-1218.76)">
+                        <g transform="matrix(0.873332,0,0,0.828052,62.6252,348.44)">
+                            <clipPath id="_clip2">
+                                <path d="M220.937,106.696L311.367,56.664C280.929,61.93 288.549,64.555 334.226,64.555C367.543,64.555 344.725,67.646 354.839,73.44C382.203,89.112 395.348,61.293 400.391,156.2C400.64,160.906 402.858,167.073 402.858,171.857C402.858,171.857 391.959,176.734 370.147,186.474C304.174,181.239 263.885,180.462 249.28,184.128C241.991,185.976 239.207,177.511 232.745,175.274C215.742,169.341 210.547,185.635 213.193,164.696C214.226,156.526 216.803,137.203 220.937,106.696Z"/>
+                            </clipPath>
+                            <g clip-path="url(#_clip2)">
+                                <g transform="matrix(0.339686,-0,-0,0.358261,190.848,25.9998)">
+                                    <use xlink:href="#_Image3" x="63.864" y="85.591" width="560.272px" height="362.332px" transform="matrix(0.998702,0,0,0.99816,0,0)"/>
+                                </g>
                             </g>
                         </g>
-                    </g>
-                    <g transform="matrix(1,0,0,1,310.874,486.363)">
-                        <g id="B">
-                            <text x="0px" y="0px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:80px;">B</text>
+                        <g transform="matrix(1,0,0,1,310.874,486.363)">
+                            <g id="B">
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:80px;fill:none;">B</text>
+                                    <text x="0px" y="0px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:80px;fill:rgb(51,51,51);stroke:rgb(150,150,150);stroke-width:0.3px;stroke-linejoin:round;stroke-miterlimit:1.41421;">B</text>
+                                </g>
+                            </g>
                         </g>
                     </g>
                 </g>

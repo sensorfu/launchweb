@@ -1,3 +1,8 @@
+
+@keyframes ScrollRight {
+    from {background-position: -320px 0;}
+    to {background-position: 0px 0px;}
+}
 .page-content {
     padding-top: 0px;
 }
@@ -30,8 +35,19 @@
 
 .cell.wide {
     flex: 2 100%;
+    margin-top: 20px;
+    padding: 20px;
+
 }
 
+.dark { 
+    color: #fefefe;
+    background: radial-gradient(farthest-side at 50% 100%,
+    rgba(20, 20, 10, 0.3), 
+    rgba(20,20,10, 0.4) ), 
+    url(beacon.jpg);
+    background-position: 40% 40%;
+}
 .cell.wide.beacon {
     max-height: 380px;
     background: radial-gradient(farthest-side at 50% 100%,
@@ -47,9 +63,14 @@
 
 .cell.pic {
    background-repeat: no-repeat; 
-   min-height: 250px;
+   min-height: 300px;
    background-size: contain;
+   //background-position: 50% 50%;
+   background-position: 0px 0px;
+   animation: ScrollRight 0.7s ease-out 1;
+   animation-fill-mode: forwards;
 }
+
 
 .cell.pic.flow { background-image: url("flow.svg");}
 .cell.pic.physical { background-image: url("physical.svg");}
