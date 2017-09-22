@@ -1,15 +1,30 @@
-
-@keyframes ScrollRight {
-    from {background-position: -320px 0;}
-    to {background-position: 0px 0px;}
+body {
+    background-color: #fff;
 }
+
 .page-content {
     padding-top: 0px;
+}
+
+.cell.wide.beacon {
+    background: radial-gradient(farthest-side at 50% 100%,
+        rgba(0, 0, 0, 0.1),
+        rgba(0,0,0, 0.2) ),
+        url(beacon.jpg);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    color: #fff;
+    font-size: 20px;
+    background-attachment: fixed;
+    /* transform: translate3D(0,-150px,-1px)  scale(1.5); */
 }
 
 .page {
     min-height: 300px;
     page-break-after: always;
+    background-color: #fff;
 }
 
 .row {
@@ -19,13 +34,23 @@
     min-height: 180px;
     justify-content: center;
 }
+.row.center { align-items: center; }
+.row.text {
+    margin: 20px;
+    padding: inherit;
+}
 
-.row.center { align-items: center; }    
+.tight {
+    min-height: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.row.notopmargin { margin-top: 0; }
 
 .cell {
     width: 47%;
     padding: 20px;
-    min-height: 100px;
+    min-height: 50px;
     text-align: center;
 }
 
@@ -37,38 +62,29 @@
     flex: 2 100%;
     margin-top: 20px;
     padding: 20px;
-
 }
 
 .dark { 
     color: #fefefe;
     background: radial-gradient(farthest-side at 50% 100%,
-    rgba(20, 20, 10, 0.3), 
-    rgba(20,20,10, 0.4) ), 
+    rgba(60, 60, 50, 1),
+    rgba(60, 60, 50, 0.9)),
     url(beacon.jpg);
-    background-position: 40% 40%;
+    background-position: 40% 100%;
+    background-size: 150%;
+    text-shadow: 0 0 10px rgba(0,0,0, 0.2);
 }
-.cell.wide.beacon {
-    max-height: 380px;
-    background: radial-gradient(farthest-side at 50% 100%,
-        rgba(0, 0, 0, 0.1), 
-        rgba(0,0,0, 0.3) ), 
-        url(beacon.jpg);
-    background-position: 0 60%;
-    background-size: cover;
-    height: 500px;
-    color: #fff;
-    font-size: 30px;
-}
+
+.dark.first {background-position: 30% 60%; }
+.dark.second {background-position: 30% 80%; }
+.dark.third {background-position: 30% 90%; }
+.dark.fourth {background-position: 30% 100%; }
 
 .cell.pic {
    background-repeat: no-repeat; 
-   min-height: 300px;
+   min-height: 250px;
    background-size: contain;
-   //background-position: 50% 50%;
-   background-position: 0px 0px;
-   animation: ScrollRight 0.7s ease-out 1;
-   animation-fill-mode: forwards;
+   background-position: 50% 50%;
 }
 
 
@@ -77,6 +93,8 @@
 .cell.pic.virtual { background-image: url("virtual.svg");}
 .cell.pic.oneamong { background-image: url("one-among-others.svg");}
 .cell.pic.complex { background-image: url("complex.jpg");}
+.cell.pic.layers { background-image: url("layers.svg");}
+
 .cell.pic.encryption { background-image: url("encryption.jpg");}
 .cell.pic.oneway { background-image: url("oneway.jpg");}
 .cell.pic.disposable { background-image: url("disposable.jpg");}
@@ -84,5 +102,9 @@
 @media print {
     .row {
         margin-top: 10px;
+    }
+    .cell.wide.beacon {
+        background-attachment: scroll;
+        background-position: 50% 50%;
     }
  }
