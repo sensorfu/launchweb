@@ -1,5 +1,6 @@
 body {
     background-color: #fff;
+    color: #223;
 }
 
 .page-content {
@@ -8,16 +9,16 @@ body {
 
 .cell.wide.beacon {
     background: radial-gradient(farthest-side at 50% 100%,
-        rgba(0, 0, 0, 0.1),
-        rgba(0,0,0, 0.2) ),
+        rgba(0, 0, 0, 0.2),
+        rgba(0,0,0, 0.3) ),
         url(beacon.jpg);
-    background-position: 50% 100%;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
     color: #fff;
     font-size: 20px;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     /* transform: translate3D(0,-150px,-1px)  scale(1.5); */
 }
 
@@ -34,7 +35,9 @@ body {
     min-height: 180px;
     justify-content: center;
 }
+
 .row.center { align-items: center; }
+
 .row.text {
     margin: 20px;
     padding: inherit;
@@ -67,18 +70,19 @@ body {
 .dark { 
     color: #fefefe;
     background: radial-gradient(farthest-side at 50% 100%,
-    rgba(60, 60, 50, 1),
-    rgba(60, 60, 50, 0.9)),
+    rgba(60, 60, 50, 0.9),
+    rgba(60, 60, 50, 0.8)),
     url(beacon.jpg);
     background-position: 40% 100%;
     background-size: 150%;
     text-shadow: 0 0 10px rgba(0,0,0, 0.2);
+    background-attachment: fixed;
 }
 
-.dark.first {background-position: 30% 60%; }
+.dark.first {background-position: 30% 80%; }
 .dark.second {background-position: 30% 80%; }
-.dark.third {background-position: 30% 90%; }
-.dark.fourth {background-position: 30% 100%; }
+.dark.third {background-position: 30% 80%; }
+.dark.fourth {background-position: 30% 80%; }
 
 .cell.pic {
    background-repeat: no-repeat; 
