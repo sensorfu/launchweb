@@ -19,10 +19,12 @@ body, h1, h2, h3, h4, h5, h6 {
   padding-bottom: 50px;
   text-align: center;
   color: #f8f8f8;
+  min-height: 100%;
   background: radial-gradient(farthest-side at 50% 100%,
-  rgba(0, 0, 0, 0.2),
-  rgba(0,0,0, 0.3) ),
-  url(../img/beacon.jpg) no-repeat center center;
+                            rgba(0, 0, 0, 0.2),
+                            rgba(0,0,0, 0.3) ),
+                            url(../img/beacon.jpg) 
+                            no-repeat center center;
   background-size: cover;
 }
 
@@ -34,7 +36,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .intro-message>h1 {
   margin: 0;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
   font-size: 5em;
 }
 
@@ -45,13 +47,23 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .intro-message>h3 {
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  padding-top: 10px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .intro-social-buttons i {
   font-size: 80%;
 }
 
+.content-section-a.hack {
+  background: radial-gradient(farthest-side at 50% 100%,
+  rgba(0, 0, 0, 0.2),
+  rgba(0,0,0, 0.3) ),
+  url(../img/hack.jpg) 
+  no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
 @media(max-width:767px) {
   .intro-message {
     padding-bottom: 15%;
@@ -82,12 +94,15 @@ body, h1, h2, h3, h4, h5, h6 {
 .content-section-a {
   padding: 50px 0;
   background-color: #f8f8f8;
+  min-height: 90%;
 }
 
 .content-section-b {
   padding: 50px 0;
   border-top: 1px solid #e7e7e7;
   border-bottom: 1px solid #e7e7e7;
+  min-height: 90%;
+  
 }
 
 .section-heading {
@@ -103,7 +118,13 @@ body, h1, h2, h3, h4, h5, h6 {
 .banner {
   padding: 100px 0;
   color: #f8f8f8;
-  background: url(../img/banner-bg.jpg) no-repeat center center;
+  background: radial-gradient(farthest-side at 50% 100%,
+                            rgba(0, 0, 0, 0.2),
+                            rgba(0,0,0, 0.3) ),
+                            url(../img/beacon.jpg) 
+                            no-repeat center center;
+  background-position: 100% 100%;
+                            
   background-size: cover;
 }
 
