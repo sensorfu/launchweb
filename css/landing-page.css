@@ -26,6 +26,7 @@ body, h1, h2, h3, h4, h5, h6 {
                             url(../img/beacon.jpg) 
                             no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .intro-message {
@@ -57,11 +58,12 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .content-section-a.hack {
   background: radial-gradient(farthest-side at 50% 100%,
-  rgba(0, 0, 0, 0.2),
-  rgba(0,0,0, 0.3) ),
-  url(../img/hack.jpg) 
-  no-repeat center center;
+                            rgba(0, 0, 0, 0.2),
+                            rgba(0,0,0, 0.3) ),
+                            url(../img/hack.jpg) 
+                            no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
   color: #fff;
 }
 @media(max-width:767px) {
@@ -93,8 +95,9 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .content-section-a {
   padding: 50px 0;
-  background-color: #f8f8f8;
-  min-height: 90%;
+  background-color: #fff;
+  min-height: 100%;
+  
 }
 
 .content-section-b {
@@ -123,8 +126,7 @@ body, h1, h2, h3, h4, h5, h6 {
                             rgba(0,0,0, 0.3) ),
                             url(../img/beacon.jpg) 
                             no-repeat center center;
-  background-position: 100% 100%;
-                            
+  background-position: 100% 100%;                   
   background-size: cover;
 }
 
