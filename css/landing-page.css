@@ -12,20 +12,30 @@ body, html {
 body, h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
+  font-size: 180%;
 }
 
+h1 {
+}
+
+p.lead {
+  font-size: 100%;
+}
 .intro-header {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
   color: #f8f8f8;
-  min-height: 100%;
   background: radial-gradient(farthest-side at 50% 100%,
                             rgba(0, 0, 0, 0.2),
                             rgba(0,0,0, 0.3) ),
                             url(../img/beacon.jpg) 
                             no-repeat center center;
   background-size: cover;
+  height: 100%;  
+}
+
+.parallax, .content-section-a.hack.parallax {
   background-attachment: fixed;
 }
 
@@ -33,6 +43,8 @@ body, h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding-top: 20%;
   padding-bottom: 20%;
+  font-size: 60%;
+  
 }
 
 .intro-message>h1 {
@@ -63,9 +75,32 @@ body, h1, h2, h3, h4, h5, h6 {
                             url(../img/hack.jpg) 
                             no-repeat center center;
   background-size: cover;
-  background-attachment: fixed;
   color: #fff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
+
+@media(max-width:767px) {
+  /* Mobile Chrome hides toolbar on the fly. 
+     That makes background-pictures with height:100% rescale. 
+  */
+  .intro-header {
+    height: 700px;
+  }
+
+  .parallax {
+    background-attachment: scroll;
+  }
+
+  .content-section-a.hack {
+    min-height: 500px;
+    height: 500px;
+  }
+  /* disable parallax scrolling on mobile */
+  .parallax, .content-section-a.hack.parallax {
+    background-attachment: scroll;
+  }
+}
+
 @media(max-width:767px) {
   .intro-message {
     padding-bottom: 15%;
@@ -150,9 +185,13 @@ body, h1, h2, h3, h4, h5, h6 {
     float: left;
     margin-top: 15px;
   }
+
 }
 
 @media(max-width:767px) {
+  .intro-header {
+    height: 700px;
+  }
   .banner h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
