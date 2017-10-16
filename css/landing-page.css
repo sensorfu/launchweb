@@ -12,12 +12,19 @@ body, html {
 body, h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  font-size: 180%;
+  font-size: 150%;
 }
-
+img {
+  padding-top: 30px;
+}
 p.lead {
   font-size: 100%;
 }
+
+a.nav-link {
+  font-size: 80%;
+}
+
 .intro-header {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -74,6 +81,7 @@ p.lead {
   background-size: cover;
   color: #fff;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  min-height: 60%;  
 }
 
 @media(max-width:767px) {
