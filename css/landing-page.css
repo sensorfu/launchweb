@@ -12,10 +12,14 @@ body, html {
 body, h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  font-size: 150%;
+  font-size: 130%;
 }
 img {
   padding-top: 30px;
+}
+
+img.short {
+  max-height: 350px;
 }
 p.lead {
   font-size: 100%;
@@ -43,10 +47,6 @@ a.nav-link {
                             no-repeat center center;
   background-size: cover;
   height: 100%;  
-}
-
-.parallax, .content-section-a.hack.parallax {
-  background-attachment: fixed;
 }
 
 .intro-message {
@@ -90,6 +90,25 @@ a.nav-link {
   min-height: 60%;  
 }
 
+.parallax, .content-section-a.deploy.parallax {
+  background-attachment: fixed;
+}
+
+.content-section-a.deploy {
+  background: radial-gradient(farthest-side at 50% 100%,
+                            rgba(0, 0, 0, 0.2),
+                            rgba(0,0,0, 0.3) ),
+                            url(../img/mikko.jpg) 
+                            no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  min-height: 60%;  
+}
+
+.parallax, .content-section-a.hack.parallax {
+  background-attachment: fixed;
+}
 @media(max-width:767px) {
   /* Mobile Chrome hides toolbar on the fly. 
      That makes background-pictures with height:100% rescale. 
@@ -141,8 +160,7 @@ a.nav-link {
 
 .content-section-a {
   padding: 50px 0;
-  background-color: #fff;
-  min-height: 100%;
+  background-color: #fbfbfb;
   
 }
 
@@ -150,7 +168,6 @@ a.nav-link {
   padding: 50px 0;
   border-top: 1px solid #e7e7e7;
   border-bottom: 1px solid #e7e7e7;
-  min-height: 90%;
   
 }
 
