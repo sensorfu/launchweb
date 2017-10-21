@@ -11,9 +11,20 @@ body, html {
 
 body, h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+div.container {
   font-weight: 700;
   font-size: 130%;
 }
+
+address {
+  font-size: 90%;
+  font-weight: 100;
+}
+
+a.mail { color: #f8f8f8;}
+
 img {
   padding-top: 30px;
 }
@@ -33,6 +44,10 @@ p.caption {
 
 a.nav-link {
   font-size: 80%;
+}
+
+.list-inline-item {
+  margin-bottom: 10px;
 }
 
 .intro-header {
@@ -78,6 +93,8 @@ a.nav-link {
   font-size: 80%;
 }
 
+.row.space { margin-top: +40px;}
+
 .content-section-a.hack {
   background: radial-gradient(farthest-side at 50% 100%,
                             rgba(0, 0, 0, 0.2),
@@ -90,7 +107,21 @@ a.nav-link {
   min-height: 60%;  
 }
 
-.parallax, .content-section-a.deploy.parallax {
+.content-section-a.getstarted {
+  background: linear-gradient(to right,
+                            rgba(0, 0, 20, 0.5),
+                            rgba(0,0,0, 0.0) ),
+                            url(../img/getstarted.jpg) 
+                            no-repeat center center;
+
+                            
+  background-size: cover;
+  color: #fff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  min-height: 60%;  
+}
+
+.parallax, .content-section-a.deploy.parallax, .content-section-a.getstarted.parallax {
   background-attachment: fixed;
 }
 
