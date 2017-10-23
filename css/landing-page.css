@@ -126,8 +126,8 @@ a.nav-link {
   min-height: 60%;  
 }
 
-.parallax, .content-section-a.deploy.parallax, .content-section-a.getstarted.parallax {
-  background-attachment: fixed;
+.parallax {
+  background-attachment: fixed    !important;
 }
 
 .content-section-a.deploy {
@@ -143,13 +143,11 @@ a.nav-link {
   background-position: 10% 60%;
 }
 
-.parallax, .content-section-a.hack.parallax {
-  background-attachment: fixed;
-}
+
 @media(max-width:1025px) {  
  /* disable parallax scrolling on mobile */
- .parallax, .content-section-a.hack.parallax {
-  background-attachment: scroll;
+ .parallax {
+  background-attachment: scroll    !important;
   }
 }
 
@@ -159,10 +157,6 @@ a.nav-link {
   */
   .intro-header {
     height: 700px;
-  }
-
-  .parallax {
-    background-attachment: scroll;
   }
 
   .content-section-a.hack {
