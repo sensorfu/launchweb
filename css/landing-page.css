@@ -18,6 +18,20 @@ div.container {
   font-size: 130%;
 }
 
+blockquote p {
+    font-weight: 200;
+    font-size: 100%;
+    color: #777;
+    font-style: oblique;
+    padding-top: 50px;
+}
+
+blockquote footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: inherit;
+  font-size: 80%;
+}
 address {
   font-size: 90%;
   font-weight: 100;
@@ -268,6 +282,7 @@ a.nav-link {
   ul.banner-social-buttons>li:last-child {
     margin-bottom: 0;
   }
+
 }
 
 footer {
