@@ -27,7 +27,9 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">SensorFu</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img src="img/beacon-top-logo.png" id="toplogo">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -54,69 +56,43 @@
     </nav>
         
     <!-- Header -->
-    <header class="intro-header parallax">
-      <div class="container">
-        <div class="intro-message">
-          <h1>Introducing the Beacon</h1>
-          <h3>Always know if your network leaks.</h3>
-          <hr class="intro-divider">
- 
+    <header class="intro-header">
+      <div class="container-fluid">
+        <div class="intro-messagex">
+         <img src="img/header-banner-bg.svg" class="wide">
         </div>
       </div>
     </header>
-        
-    <!-- Page Content -->
-    <section class="content-section-a">
-        
-      <div class="container">
-        <div class="row">
-         <div class="col-md-8 col-xs-12 mx-auto">
-          <div class="bd-example">
-            <blockquote class="blockquote">
-              <p>Sometimes even the experts get it wrong! So how can we build and 
-                 ensure the policies - and the technical enforcement of those written 
-                 policies keep accidents and slip ups from occuring?</p>
-              <footer>Rob Joyce, chief of the NSA’s Tailored Access Operations (TAO)
-              </footer>
-            </blockquote>
-          </div>
-        </div>
-      </div>
-    </div>
     </section>
+    
+    <!-- Page Content -->
+
     <section class="content-section-b" id="challenge">
             
       <div class="container">
         <div class="row">
-          <div class="col-md-6 mx-auto">
+          <div class="col-md-6 mx-auto order-md-1 order-sm-1">
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
             <h2 class="section-heading">Network Isolation</h2>
-            <p class="lead">We rely on it. Do you know it works? Privacy, payment safety or your sanity may require it.</p>
+            <p class="lead">You rely on it. But do you know it works? Privacy, payment safety or your sanity may require it.</p>
           </div>
-          <div class="col-md-6 mr-auto">
-              <video class="illustration" src="img/breakout.mov" autoplay loop muted playsinline>
-                  Your browser does not support the video tag.
-                </video>
-            <p class="caption">Kasper broke out with ease. Data protection or payment safety down the toilet?</p>
-          </div>
-        </div>
-
-      </div>
-
-              
-      <div class="container">
-        
-        <div class="row">
-          <div class="col-md-6 mr-auto order-md-2">
-            <hr class="section-heading-spacer">
-            <div class="clearfix"></div>
-            <h2 class="section-heading">SensorFu Beacon</h2>
-            <p class="lead">Always know if your network leaks. Designed for customers who
-              require absolute network segregation. </p>
-          </div>
-          <div class="col-md-6 mx-auto order-md-1">
-            <!-- taustavari laatikon ulkopuolella pikkaisen pielessä -->
+          <div class="col-md-6 mr-auto order-md-2 order-sm-3">
+              <hr class="section-heading-spacer">
+              <div class="clearfix"></div>
+              <h2 class="section-heading">SensorFu Beacon</h2>
+              <p class="lead">Always know if your network leaks. Designed for customers who
+                require absolute network segregation. </p>
+            </div>
+            <div class="col-md-6 mr-auto order-md-3 order-sm-2">
+                <video class="illustration breakout" src="img/breakout.mov" autoplay loop muted playsinline>
+                    Your browser does not support the video tag.
+                  </video>
+              <p class="caption">Kasper broke out with ease. Data protection or payment safety down the toilet?</p>
+            </div>
+  
+ 
+          <div class="col-md-6 mx-auto order-md-4 order-sm-4">
               <video class="illustration" src="introducing.mov" autoplay loop muted playsinline>
                 Your browser does not support the video tag.
               </video>
@@ -125,30 +101,29 @@
             
           </div>
         </div>
-
-
       </div>
-      <!-- /.container -->
     </section>
+ 
 
+    <!-- quote 1 -->
     <section class="content-section-a">
-        
-      <div class="container">
-        <div class="row">
-         <div class="col-md-8 col-xs-12 mx-auto">
-          <div class="bd-example">
-            <blockquote class="blockquote">
-              <p>
-                Failing the network segregation may have catastrophic consequences.
-              </p>
-              <footer>Juhani Eronen, The National Cyber Security Centre Finland </footer>
-            </blockquote>
+        <div class="container">
+          <div class="row">
+           <div class="col-md-8 col-xs-12 mx-auto">
+            <div class="bd-example">
+              <blockquote class="blockquote">
+                <p>Sometimes even the experts get it wrong! So how can we build and 
+                   ensure the policies - and the technical enforcement of those written 
+                   policies keep accidents and slip ups from occuring?</p>
+                <footer>Rob Joyce, chief of the NSA’s Tailored Access Operations (TAO)
+                </footer>
+              </blockquote>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    </section>
-    <!-- quotet tänne -->
+      </section>
+  
     <!-- Section -->
 
  
@@ -194,6 +169,10 @@
 
         </div> <!-- row --> 
  
+
+
+
+        
         <!--- this after "beacon calls home" --> 
         <!--- between calls home and this one, testimonials --> 
           <div class="row">
@@ -225,6 +204,25 @@
       </div> <!-- container -->
    
     </section>
+
+
+    <section class="content-section-b">
+      
+    <div class="container">
+      <div class="row">
+       <div class="col-md-8 col-xs-12 mx-auto">
+        <div class="bd-example">
+          <blockquote class="blockquote">
+            <p>
+              Failing the network segregation may have catastrophic consequences.
+            </p>
+            <footer>Juhani Eronen, The National Cyber Security Centre Finland </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
 
 
     <section class="content-section-a parallax deploy" id="easytodeploy">

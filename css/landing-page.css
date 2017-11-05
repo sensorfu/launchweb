@@ -18,9 +18,24 @@ body, h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
+
+img.wide {
+  width: 100%;
+}
+
+#toplogo {
+  padding: 0;
+  margin: 0;
+  height: 40px;
+
+}
 div.container {
   font-weight: 700;
   font-size: 130%;
+}
+
+div.container li {
+  font-weight: 400;
 }
 
 blockquote p {
@@ -28,7 +43,6 @@ blockquote p {
     font-size: 100%;
     color: #777;
     font-style: oblique;
-    padding-top: 50px;
 }
 
 blockquote footer {
@@ -70,22 +84,15 @@ a.nav-link {
 }
 
 .intro-header {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   text-align: center;
   color: #f8f8f8;
-  background: radial-gradient(farthest-side at 50% 100%,
-                            rgba(0, 0, 0, 0.2),
-                            rgba(0,0,0, 0.3) ),
-                            url(../img/beacon.jpg) 
-                            no-repeat center center;
-  background-size: cover;
-  height: 100%;  
 }
 
 .intro-message {
   position: relative;
-  padding-top: 20%;
+  padding-top: 15%;
   padding-bottom: 20%;
   font-size: 60%;
   
@@ -125,6 +132,14 @@ a.nav-link {
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
   min-height: 60%;  
 }
+
+.illustration.breakout {
+  margin-top: 135px;
+  
+}
+@media(max-width:1200px) {  .illustration.breakout {margin-top: 84px;} }
+
+@media(max-width:990px) {  .illustration.breakout {margin-top: 62px;} }
 
 .illustration {
   max-width: 100%; 
@@ -174,10 +189,7 @@ a.nav-link {
   /* Mobile Chrome hides toolbar on the fly. 
      That makes background-pictures with height:100% rescale. 
   */
-  .intro-header {
-    height: 700px;
-  }
-
+  
   .content-section-a.hack {
     min-height: 500px;
     height: 500px;
@@ -271,9 +283,7 @@ a.nav-link {
 }
 
 @media(max-width:767px) {
-  .intro-header {
-    height: 700px;
-  }
+ 
   .banner h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
