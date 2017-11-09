@@ -253,7 +253,7 @@ a.nav-link {
   background: radial-gradient(farthest-side at 50% 100%,
                             rgba(0, 0, 0, 0.2),
                             rgba(0,0,0, 0.3) ),
-                            url(../img/beacon.jpg) 
+                            url(../img/beacon-footer-bg.jpg) 
                             no-repeat center center;
   background-position: 100% 100%;                   
   background-size: cover;
