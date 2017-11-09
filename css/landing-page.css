@@ -19,6 +19,10 @@ body, h1, h2, h3, h4, h5, h6 {
 
 }
 
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
 img.wide {
   width: 100%;
 }
@@ -70,11 +74,12 @@ p.lead {
 }
 
 p.caption {
-  font-size: 60%;
+  font-size: 70%;
   font-weight: 200;
   font-style: oblique;
 }
 
+#mikkocaption {  margin-left: +30px; }
 a.nav-link {
   font-size: 80%;
 }
