@@ -85,7 +85,7 @@
                 require absolute network segregation. </p>
             </div>
             <div class="col-md-6 mx-auto order-md-3 order-sm-2">
-                <video class="illustration breakout" src="img/breakout.mov" autoplay loop muted playsinline>
+                <video id="breakout" class="illustration breakout" src="img/breakout.mov" loop muted playsinline>
                     Your browser does not support the video tag.
                   </video>
               <p class="caption">Kasper broke out with ease. Data protection or payment safety down the toilet?</p>
@@ -93,7 +93,7 @@
   
  
           <div class="col-md-6 mx-auto order-md-4 order-sm-4">
-              <video class="illustration" src="introducing.mov" autoplay loop muted playsinline>
+              <video id="introducing" class="illustration" src="introducing.mov" loop muted playsinline>
                 Your browser does not support the video tag.
               </video>
               
@@ -444,6 +444,7 @@
     <!-- Footer -->
 
     <!-- Bootstrap core JavaScript -->
+    <script src="autoplay.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
