@@ -144,12 +144,12 @@ a.nav-link {
 }
 
 .illustration.breakout {
-  margin-top: 90px;
+  margin-top: 73px;
   
 }
-@media(max-width:1200px) {  .illustration.breakout {margin-top: 47px;} }
+@media(max-width:1200px) {  .illustration.breakout {margin-top: 32px;} }
 
-@media(max-width:990px) {  .illustration.breakout {margin-top: 35px;} }
+@media(max-width:990px) {  .illustration.breakout {margin-top: 25px;} }
 
 .illustration {
   max-width: 100%; 
