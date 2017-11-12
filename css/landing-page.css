@@ -19,10 +19,8 @@ body, h1, h2, h3, h4, h5, h6 {
 
 }
 
-h1 {
-  font-size: 280%
+h1 {  font-size: 280%; }
 
-}
 .container-fluid {
   padding-right: 0;
   padding-left: 0;
@@ -51,6 +49,7 @@ blockquote p {
     font-size: 100%;
     color: #777;
     font-style: oblique;
+    text-align: center;
 }
 
 blockquote footer {
@@ -58,6 +57,7 @@ blockquote footer {
   padding-bottom: 10px;
   background-color: inherit;
   font-size: 80%;
+  text-align: center;
 }
 address {
   font-size: 90%;
@@ -144,12 +144,12 @@ a.nav-link {
 }
 
 .illustration.breakout {
-  margin-top: 135px;
+  margin-top: 90px;
   
 }
-@media(max-width:1200px) {  .illustration.breakout {margin-top: 84px;} }
+@media(max-width:1200px) {  .illustration.breakout {margin-top: 47px;} }
 
-@media(max-width:990px) {  .illustration.breakout {margin-top: 62px;} }
+@media(max-width:990px) {  .illustration.breakout {margin-top: 35px;} }
 
 .illustration {
   max-width: 100%; 
@@ -317,4 +317,26 @@ footer {
 
 p.copyright {
   margin: 15px 0 0;
+}
+
+/* Bootstrap sm does not handle very narrow screens */
+
+@media(max-width:577px) {
+    
+  .order-sm-1 {
+    -ms-flex-order: 1;
+        order: 1;
+  }
+  .order-sm-2 {
+    -ms-flex-order: 2;
+        order: 2;
+  }
+  .order-sm-3 {
+    -ms-flex-order: 3;
+        order: 3;
+  }
+  .order-sm-4 {
+    -ms-flex-order: 4;
+        order: 4;
+  }
 }
