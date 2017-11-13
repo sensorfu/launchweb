@@ -24,7 +24,7 @@
                         <ellipse cx="154.338" cy="2531.24" rx="44.344" ry="43.073" style="fill:rgb(64,63,65);stroke:rgb(64,63,65);stroke-width:17.1px;"/>
                     </g>
                     <g transform="matrix(1,0,0,1,192.137,173.432)">
-                        <text x="0px" y="0px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:80px;fill:white;stroke:rgb(51,51,51);stroke-width:1px;stroke-linecap:butt;stroke-miterlimit:1.41421;">H</text>
+                        <path d="M41.094,-63.242L41.094,0L24.648,0L24.648,-26.563L19.727,-26.563L19.727,0L3.281,0L3.281,-63.242L19.727,-63.242L19.727,-40.625L24.648,-40.625L24.648,-63.242L41.094,-63.242Z" style="fill:white;fill-rule:nonzero;stroke:rgb(51,51,51);stroke-width:1px;stroke-linecap:butt;stroke-miterlimit:1.41421;"/>
                     </g>
                 </g>
                 <g transform="matrix(1,0,0,1,202.834,416.799)">
