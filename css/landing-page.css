@@ -59,6 +59,13 @@ blockquote footer {
   font-size: 80%;
   text-align: center;
 }
+
+blockquote.left p {
+  text-align: left;
+}
+.lead a {
+  color: #22252a;
+}
 address {
   font-size: 90%;
   font-weight: 100;
