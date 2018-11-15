@@ -1,0 +1,85 @@
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: helvetica;
+}
+
+#hero {
+	text-align: center;
+}
+
+#highlights {
+  text-align: center;
+  width: 100%;
+  background-color: #333;
+  padding: 4rem 0;
+}
+
+h1, h2 {
+  font-weight: 200;
+  text-align: center;
+}
+
+.box {
+  width: 20%;
+  min-width: 250px;
+  padding: 3em;
+  display: inline-block;
+  background-color: #222;
+  text-align: center;
+  animation-duration: 0.2s;
+  transition: all 0.2s ease-in-out 0s;
+  z-index: 1;
+}
+
+.box:hover {
+  transition: all 0.2s ease-in-out 0s;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.75);
+  z-index: 2;
+}
+
+.anim-1,
+.anim-2,
+.anim-3 {
+  position: relative;
+  animation-duration: 1.5s;
+}
+
+.anim-title {
+  animation-name: textin-1;	
+}
+
+.anim-slogan {
+	
+}
+
+.anim-1 {
+  animation-name: textin-1;
+}
+
+.anim-2 {
+  animation-name: textin-2;
+}
+
+.anim-3 {
+  animation-name: textin-3;
+}
+
+@keyframes textin-1 {
+  0%   { opacity: 0; top: 50px; }
+  10%  { opacity: 0; top: 50px; }
+  100% { opacity: 1; top: 0; }
+}
+
+@keyframes textin-2 {
+  0%   { opacity: 0; top: 50px; }
+  20%  { opacity: 0; top: 50px; }
+  100% { opacity: 1; top: 0px; }
+}
+
+@keyframes textin-3 {
+  0%   { opacity: 0; top: 50px; }
+  30%  { opacity: 0; top: 50px; }
+  100% { opacity: 1; top: 0; }
+}
