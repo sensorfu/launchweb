@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,26 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="SensorFu Ltd">
 
-    <title>SensorFu Beacon</title>
+    <title>SensorFu Beacon - The next generation is here!</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="http://www.sensorfu.com/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="https://www.sensorfu.com/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="http://www.sensorfu.com/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://www.sensorfu.com/css/latoweb.css" rel="stylesheet">
+    <link href="https://www.sensorfu.com/css/latoweb.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/custom.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/animate.min.css">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="http://www.sensorfu.com/favicon.png">
+    <link rel="icon" type="image/png" href="https://www.sensorfu.com/favicon.png">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-6903210-4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-6903210-4', { 'anonymize_ip': true });
+    </script>
 </head>
 
 <body id="page-top">
-
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
@@ -37,7 +44,16 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#beacon">The Beacon</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#deployment">Deployment</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#getstarted">Get started</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#aboutus">About Us</a>
@@ -53,7 +69,8 @@
 <div class="container-fluid hero">
 	<div class="row text-center">
 		<div class="col-md-12 animated fadeIn">
-			<img src="img/beacon-header-next-gen.svg" alt="Beacon - the next generation is here!">
+			<img src="img/beacon-hero-logo.svg" alt="Beacon - Always know if your network leaks!">
+			<h2>The <strong>next generation</strong> is here!</h2>
 		</div>
 	</div>
 </div>
@@ -64,19 +81,19 @@
 			<img src="img/beacon-device.svg" alt="">
 			<h1>Device</h1>
 			<p>Use the physical ones to test on premise locations. Powered by Rasberry Pi.</p>
-			<p><a href="#beacon-device" class="btn btn-primary">Learn more &raquo;</a></p>
+			<p><a href="#beacon-device" class="btn btn-primary js-scroll-trigger">Learn more &raquo;</a></p>
 		</div>
 		<div class="col-md-4 animated fadeInLeft slower">
 			<img src="img/beacon-virtual.svg" alt="">
 			<h1>Virtual</h1>
 			<p>Launch the virtual Beacons inside server hotels and see if they can call their Home.</p>
-			<p><a href="#beacon-virtual" class="btn btn-primary">Learn more &raquo;</a></p>
+			<p><a href="#beacon-virtual" class="btn btn-primary js-scroll-trigger">Learn more &raquo;</a></p>
 		</div>
 		<div class="col-md-4 animated fadeInLeft slower">
 			<img src="img/beacon-app-new.svg" alt="" style="max-width: 160px; margin-top: -8px">
 			<h1>Application</h1>
 			<p>Application allows Beaconto be installed on Laptops. Or clouds.</p>
-			<p><a href="#beacon-app" class="btn btn-primary">Learn more &raquo;</a></p>
+			<p><a href="#beacon-app" class="btn btn-primary js-scroll-trigger">Learn more &raquo;</a></p>
 		</div>
 	</div>
 </div>
@@ -87,12 +104,13 @@
 <!-- News -->
 <div class="container">
 	<div class="row">
-		<div class="col-md-4 text-center" style="border-right: 4px solid #eee;">
-			<h1>App unlocks two new deployment scenarios!</h1>
+		<div class="col-md-4 text-center bloglegend">
+			<h1>New ways to deploy!</h1>
 			<p>Mikko Kenttälä, CEO
-			<img src="img/mikko-kenttala.jpg" alt="Mikko Kenttälä">
+			<p><img src="img/mikko-kenttala.jpg" class="img-fluid" alt="Mikko Kenttälä">
 		</div>
 		<div class="col-md-8">
+			<h2>App unlocks two new deployment scenarios</h2>
 			<p>
                     Beacons in dedicated devices and in virtual machines
                     have helped our customers to always know if their <strong>networks</strong> leak.
@@ -126,14 +144,17 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-4 text-center">
-			<img src="img/fingrid.png" alt="Fingrid">
+		<div class="col-md-3 text-center">
+			<img src="img/fingrid.png" class="img-fluid" alt="Fingrid">
 		</div>
-		<div class="col-md-4 text-center">
-			<img src="img/finnish-air-force.png" alt="Finnish Air Force">
+		<div class="col-md-3 text-center">
+			<img src="img/finnish-air-force.png" class="img-fluid" alt="Finnish Air Force">
 		</div>
-		<div class="col-md-4 text-center">
-			<img src="img/erillisverkot.png" alt="Erillisverkot - State Security Networks Group Finland">
+		<div class="col-md-3 text-center">
+			<img src="img/erillisverkot.png" class="img-fluid" alt="Erillisverkot - State Security Networks Group Finland">
+		</div>
+		<div class="col-md-3 text-center">
+			<img src="img/synopsys.png" class="img-fluid" alt="Synopsys">
 		</div>
 	</div>
 </div>
@@ -162,37 +183,272 @@
 
 <!-- Beacon -->
 
-<span class="anchor" id="network-isolation"></span>
 <span class="anchor" id="beacon"></span>
+
 <div class="container-fluid darker text-center" >
 	<div class="row">
         <div class="col-lg-12">
-			<h1>Beacon Automates Your Policy Checks</h1>
-			<p><strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-				tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nos- trud exerci tation.
-			</strong></p><br>
+			<h1>Beacon Calls Home</h1>
+			<p><strong>Always know if your network leaks. Designed for customers who require absolute network segregation.
+			</strong></p>
         </div>
 	</div>
 </div>
 
 
+<div class="container" >
+	<div class="row">
+		<div class="col-md-8 order-first">
+			<h2>Network Isolation</h2>
+			<p>You rely on it. You may call it isolation, segregation, segmentation, partition or sandboxing. But do you know it works? Privacy, payment safety or your sanity may require it.
+
+			<h2>Cover All the Layers</h2>
+<p>
+Firewall rules, routing, switch VLANs, cabling - it is just impossible to review everything works right everywhere! With Beacon, the testing is straightforward.
+<h2>Focus</h2>
+<p>Rather than finding 300 potential issues in one location, test one important security control in 300 locations.
+
+		</div>
+
+		<div class="col-md-4 text-center">
+
+			<img src="img/ping-alert.svg" alt=""><br><br>
+
+			<p><i>Put them in your networks and they will alert if your networks leak. Beacons try to connect to their Home over IPv4, IPv6, TCP, UDP, ICMP, DNS and Ethernet Broadcast. If they succeed, Home alerts you via Syslog or Slack.</i>
+		</div>
+	</div>
+</div>
+
+
+<!-- Beacon -->
+
+<span class="anchor" id="network-isolation"></span>
+<span class="anchor" id="beacon"></span>
+<div class="container-fluid darker3 text-center" >
+	<div class="row">
+        <div class="col-lg-12">
+			<h1>Where to use Beacon?</h1>
+			<p><strong>		
+				Here are a few examples of different scenarios with different isolation methods. We have also included a recommendation of which Beacon version to use. 
+			</strong></p>
+        </div>
+	</div>
+</div>
+
+<div class="container" >
+	<div class="row">
+		<div class="col-md-4">			
+			<div class="example">
+				<div class="home">
+					<img src="img/home.svg" alt="">
+				</div>
+				<div class="isolation">
+					<hr class="firewalled">
+					Firewalled
+					<hr class="firewalled">
+				</div>
+				<div class="versions">
+					<img src="img/device.svg" alt="Device">
+				</div>
+				<div class="description">
+					Security Camera Network
+				</div>
+				Security Camera Networks are usually firewalled, Beacon Device can be used to test isolation.
+			</div>
+		</div>
+		<div class="col-md-4">			
+			<div class="example">
+				<div class="home">
+					<img src="img/home.svg" alt="">
+				</div>
+				<div class="isolation">
+					<hr class="firewalled">
+					Firewalled
+					<hr class="firewalled">
+				</div>
+				<div class="versions">
+					<img src="img/device.svg" alt="Device">
+				</div>
+				<div class="description">
+					Office<br>Network
+				</div>
+				Office Networks are usually firewalled, Beacon Device can be used to test isolation.
+			</div>
+		</div>	
+		<div class="col-md-4">			
+			<div class="example">
+				<div class="home">
+					<img src="img/home.svg" alt="">
+				</div>
+				<div class="isolation">
+					<hr class="layered">
+					Layered
+					<hr class="layered">
+				</div>
+				<div class="versions">
+					<img src="img/device.svg" alt="Device">
+					<img src="img/virtual.svg" alt="Virtual">
+				</div>
+				<div class="description">
+					Management Network
+				</div>
+				Isolation in Magement networks is usally layered. Beacon Device or Beacon Virtual can be used.  
+			</div>
+		</div>
+
+		<div class="col-md-4">			
+			<div class="example">
+				<div class="home">
+					<img src="img/home.svg" alt="">
+				</div>
+				<div class="isolation">
+					<hr class="layered">
+					Layered - Airgapped
+					<hr class="airgapped">
+				</div>
+				<div class="versions">
+					<img src="img/app.svg" alt="APP">
+				</div>
+				<div class="description">
+					Dedicated workstation
+				</div>
+				Isolation in Dedicated workstations can be strong - use Beacon App to test it.
+			</div>
+		</div>
+		<div class="col-md-4">			
+			<div class="example">
+				<div class="home">
+					<img src="img/home.svg" alt="">
+				</div>
+				<div class="isolation">
+					<hr class="layered">
+					Layered	
+					<hr class="layered">
+				</div>
+				<div class="versions">
+					<img src="img/device.svg" alt="Device">
+					<img src="img/virtual.svg" alt="Virtual">
+					<img src="img/app.svg" alt="APP">
+				</div>
+				<div class="description">
+					Industry<br>Network
+				</div>
+				The strong layered isolation in Industry Networks can be tested with Beacon Device, Virtual or App.
+			</div>
+		</div>	
+		<div class="col-md-4">			
+			<div class="example">
+				<div class="home">
+					<img src="img/home.svg" alt="">
+				</div>
+				<div class="isolation">
+					<hr class="firewalled">
+					Firewalled - Layered
+					<hr class="layered">
+				</div>
+				<div class="versions">
+					<img src="img/app.svg" alt="APP">
+				</div>
+				<div class="description">
+					Virtual Private Cloud
+				</div>	
+				Beacon App can be installed in clouds and is used to test isolation. 
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Beacon -->
+
+<span class="anchor" id="deployment"></span>
 <span class="anchor" id="beacon-device"></span>
 <span class="anchor" id="beacon-virtual"></span>
 <span class="anchor" id="beacon-app"></span>
+
+<span class="anchor" id="network-isolation"></span>
+<span class="anchor" id="beacon"></span>
+<div class="container-fluid darker text-center" >
+	<div class="row">
+        <div class="col-lg-12">
+			<h1>Deployment</h1>
+			<p><strong>There are three ways to deploy Beacon - Device, Virtual and App</strong></p>
+        </div>
+	</div>
+</div>
+
+
+
 <div class="container" >
 	<div class="row">
-		<div class="col-md-10">
+		<div class="col-md-12 text-center">
 
-			<h2>Beacon - Device</h2>
-			<p><strong>Lorem ipsum</strong> dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nos- trud exerci tation. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros.
-			</p>
+			<p>
+			<img src="img/device.svg" alt="" style="width: 80px; height: auto;">
+			<h2>Beacon Device</h2>
+			<p>Use the physical ones to test on premise locations. Leave them behind, move them around, have them all around. Works with Raspberry Pi.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+			<p><a href="https://medium.com/sensorfu/easy-secure-reliable-not-just-in-the-marketing-materials-ad8ef7afd086">Read more &raquo;</a>
+			
+			<hr>
 
-			<h2>Beacon - Virtual</h2>
-			<p><strong>Lorem ipsum</strong> dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nos- trud exerci tation. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros.
+			<p>
+			<img src="img/virtual.svg" alt="" style="width: 80px; height: auto;">
+			<h2>Beacon Virtual</h2>
+			<p>Launch the virtual Beacons inside data centers and see if they can call their Home. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+			<p><a href="https://medium.com/sensorfu/easy-secure-reliable-not-just-in-the-marketing-materials-ad8ef7afd086">Read more &raquo;</a>
+			
+			<hr>
 
-			<h2>Beacon - App</h2>
-			<p><strong>Lorem ipsum</strong> dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nos- trud exerci tation. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros.
+			<p>
+			<img src="img/app.svg" alt="" style="width: 80px; height: auto;">
+			<h2>Beacon App</h2>
+			<p><strong>Lorem ipsum</strong> dolor sit amet, consectetuer adipiscing elit, sed diam nonummy. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+				
+		</div>
+	</div>
+</div>
 
+
+
+<span class="anchor" id="getstarted"></span>
+
+<div class="container-fluid darker2 text-center" >
+	<div class="row">
+        <div class="col-lg-12">
+			<h1>Get started</h1>
+			<p><strong>Enhancing your network security
+has never been so easy.
+			</strong></p>
+        </div>
+	</div>
+</div>
+
+<span class="anchor" id="getstarted"></span>
+<div class="container-fluid">
+	<div class="row text-center">
+		<div class="col-md-1"></div>
+		<div class="col-md-5">
+			<h2>What do you need</h2>
+			<p>A network, an operational virtualization platform (KVM, VirtualBox or VMWare) and access to Slack or a syslog server for alerts.</p>
+		</div>
+		<div class="col-md-5">
+			<h2>What will you get</h2>
+			<p>The Beacon virtual machine and VirtualBox Install instruction and one Home for your organization.</p>
+		</div>
+	</div>
+<br>
+	<div class="row text-center">
+		<div class="col-md-1"></div>
+		<div class="col-md-5">
+			<h2>Price</h2>
+			<p>Basic subscription gives you one Home and unlimited beacons. Support and upgrades included. The subscription price for a basic deployment is 30 000€ per year.</p>
+			<p><a href="">Link to pricing &raquo;</a>
+			
+		</div>
+		<div class="col-md-5">
+			<h2>Support</h2>
+			<p>Subscription includes customer support and free upgrades. Customer support available over email and Slack.</p>
 		</div>
 	</div>
 </div>
@@ -208,7 +464,7 @@
 <div class="container-fluid darker text-center" >
 	<div class="row">
         <div class="col-lg-12">
-			<h1>About SensorFu</h1>
+			<h1>About SensorFu - Contact us</h1>
         </div>
 	</div>
 </div>
@@ -252,7 +508,9 @@
                 </blockquote>
             </div>
         </div>
-    </div>
+
+   
+</div>
 </section>
 
 <div class="container-fluid darker text-center" >
@@ -305,8 +563,12 @@
 
 
 <!-- Bootstrap core JavaScript -->
-<script src="http://www.sensorfu.com/vendor/jquery/jquery.min.js"></script>
-<script src="http://www.sensorfu.com/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/popper/popper.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendor/agency.js"></script>
+<script src="vendor/jquery-easing/jquery-easing.js"></script>
+
 
 </body>
 
