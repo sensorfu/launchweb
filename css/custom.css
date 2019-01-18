@@ -87,7 +87,7 @@ h1, h2 {
 }
 
 .examples .item {
-	
+
 }
 
 /* examples */
@@ -120,6 +120,7 @@ h1, h2 {
 	color: #c1272c;
 	text-align: center;
 	font-weight: 200;
+	min-height: 100px;
 }
 
 .example .isolation hr {
@@ -146,7 +147,7 @@ hr.airgapped {
 .example .versions {
   background-color: #003449;
   text-align: center;
-  padding: 10px;	
+  padding: 10px;
 }
 
 .example .versions img {
@@ -164,8 +165,12 @@ hr.airgapped {
   line-height: 1.3em;
   color: #fff;
   margin-bottom: 14px;
+  min-height: 155px;
 }
 
+.example .subdescription {
+	min-height: 80px;
+}
 .example .description {
 }
 
@@ -250,7 +255,7 @@ div.aboutus blockquote {
 @media screen and (max-width: 991px) {
 	.hero h2 {
 		font-size: 32pt;
-	}	
+	}
 	.logos img {
 		max-width: 240px;
 		padding: 10px;
@@ -260,12 +265,12 @@ div.aboutus blockquote {
 	.example .home {
 	  padding: 10px;
 	}
-	
+
 	.example .home img {
 	  width: 100px;
 	  height: auto;
 	}
-	
+
 	.example .isolation {
 		padding: 4px 8px 4px 8px;
 		text-transform: uppercase;
@@ -276,14 +281,14 @@ div.aboutus blockquote {
 	}
 
 	.example .versions {
-	  padding: 6px;	
+	  padding: 6px;
 	}
-	
+
 	.example .versions img {
 	  width: 46px;
 	  margin: 6px 3px 0 3px;
 	}
-	
+
 	.example .description {
 	  padding: 6px 10px 20px 10px;
 	  font-size: 13pt;
@@ -291,7 +296,7 @@ div.aboutus blockquote {
 	  color: #fff;
 	  margin-bottom: 14px;
 	}
-	
+
 
 }
 
@@ -303,8 +308,8 @@ div.aboutus blockquote {
 
 	.hero h2 {
 		font-size: 28pt;
-	}	
-	
+	}
+
 	.hero h4 {
 		font-size: 12pt;
 	}
@@ -320,7 +325,7 @@ div.aboutus blockquote {
 		height: auto;
 		margin: 0 0 1em 0;
 	}
-	
+
 	.bloglegend {
 		border-right: none;
 	}
@@ -340,5 +345,5 @@ div.aboutus blockquote {
 
 	.blockquote {
 		font-size: 16pt;
-	}	
+	}
 }
