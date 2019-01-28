@@ -9,6 +9,16 @@ $ unzip bootstrap-4.2.1-dist.zip
 $ mv bootstrap-4.2.1-dist bootstrap
 ```
 
+# jQuery
+
+From: https://jquery.com/
+
+```console
+$ cd vendor
+$ mkdir jquery
+$ curl -o jquery/jquery.min.js https://code.jquery.com/jquery-3.3.1.min.js
+```
+
 # Lato font
 
 > Lato is a sanserif type­face fam­ily designed in the Sum­mer 2010 by
