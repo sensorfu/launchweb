@@ -19,6 +19,16 @@ $ mkdir jquery
 $ curl -o jquery/jquery.min.js https://code.jquery.com/jquery-3.3.1.min.js
 ```
 
+# jQuery-easing
+
+From: https://github.com/gdsmith/jquery.easing
+```console
+$ cd vendor
+$ mkdir jquery-easing
+$ curl -o jquery-easing/jquery-easing.min.js https://raw.githubusercontent.com/gdsmith/jquery.easing/master/jquery.easing.min.js
+```
+
+
 # Lato font
 
 > Lato is a sanserif type­face fam­ily designed in the Sum­mer 2010 by
