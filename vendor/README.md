@@ -22,12 +22,22 @@ $ curl -o jquery/jquery.min.js https://code.jquery.com/jquery-3.3.1.min.js
 # jQuery-easing
 
 From: https://github.com/gdsmith/jquery.easing
+
 ```console
 $ cd vendor
 $ mkdir jquery-easing
 $ curl -o jquery-easing/jquery-easing.min.js https://raw.githubusercontent.com/gdsmith/jquery.easing/master/jquery.easing.min.js
 ```
 
+# Agency
+
+From: https://startbootstrap.com/template-overviews/agency/
+
+```console
+$ cd vendor
+$ mkdir agency
+$ curl -o agency/agency.min.js https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/js/agency.min.js
+```
 
 # Lato font
 
