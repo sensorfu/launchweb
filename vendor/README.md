@@ -29,6 +29,16 @@ $ mkdir jquery-easing
 $ curl -o jquery-easing/jquery-easing.min.js https://raw.githubusercontent.com/gdsmith/jquery.easing/master/jquery.easing.min.js
 ```
 
+# animate.css
+
+From: https://daneden.github.io/animate.css/
+
+```console
+$ cd vendor
+$ mkdir animate.css
+$ curl -L -o animate.css/animate.min.css https://raw.githubusercontent.com/daneden/animate.css/master/animate.min.css
+```
+
 # Agency
 
 From: https://startbootstrap.com/template-overviews/agency/
