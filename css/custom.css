@@ -52,7 +52,8 @@ body {
 }
 
 .highlights .row div:hover {
-    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
 }
 
 .highlights p {
@@ -86,10 +87,6 @@ h1, h2 {
 	border-right: 4px solid #eee;
 }
 
-.examples .item {
-
-}
-
 /* examples */
 
 .example {
@@ -102,14 +99,14 @@ h1, h2 {
 }
 
 .example .home {
-  background-color: #003449;
-  text-align: center;
-  padding: 20px;
+	background-color: #003449;
+	text-align: center;
+	padding: 20px;
 }
 
 .example .home img {
-  width: 70px;
-  height: auto;
+	width: 70px;
+	height: auto;
 }
 
 .example .isolation {
@@ -127,7 +124,7 @@ h1, h2 {
 	margin: 8px;
 	padding: 0;
 	height: 0;
-	background-color: none;
+	background-color: transparent;
 	border-top: 0;
 }
 
@@ -141,41 +138,38 @@ hr.layered {
 
 hr.airgapped {
 	border-bottom: 3px solid #c1272c;
-    box-shadow: 0px 6px 0px #c1272c;
+	box-shadow: 0px 6px 0px #c1272c;
 }
 
 .example .versions {
-  background-color: #003449;
-  text-align: center;
-  padding: 10px;
+	background-color: #003449;
+	text-align: center;
+	padding: 10px;
 }
 
 .example .versions img {
-  width: 70px;
-  height: auto;
-  margin: 10px;
+	width: 70px;
+	height: auto;
+	margin: 10px;
 }
 
 .example .description {
-  background-color: #003449;
-  text-align: center;
-  padding: 0px 10px 20px 10px;
-  text-transform: uppercase;
-  font-size: 22pt;
-  line-height: 1.3em;
-  color: #fff;
-  margin-bottom: 14px;
-  min-height: 155px;
+	background-color: #003449;
+	text-align: center;
+	padding: 0px 10px 20px 10px;
+	text-transform: uppercase;
+	font-size: 22pt;
+	line-height: 1.3em;
+	color: #fff;
+	margin-bottom: 14px;
+	min-height: 155px;
 }
 
 .example .subdescription {
 	min-height: 80px;
 }
-.example .description {
-}
 
 /* /examples */
-
 
 a.btn-primary {
 	background-color: #528093;
@@ -184,7 +178,8 @@ a.btn-primary {
 
 a.btn-primary:hover {
 	background-color: #3298c2;
-    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
 }
 
 .darker {
@@ -245,9 +240,6 @@ a.btn-primary:hover {
 	font-size: 12pt;
 }
 
-div.aboutus {
-}
-
 div.aboutus blockquote {
 	font-size: 14pt;
 }
@@ -263,12 +255,12 @@ div.aboutus blockquote {
 	}
 
 	.example .home {
-	  padding: 10px;
+		padding: 10px;
 	}
 
 	.example .home img {
-	  width: 100px;
-	  height: auto;
+		width: 100px;
+		height: auto;
 	}
 
 	.example .isolation {
@@ -281,20 +273,20 @@ div.aboutus blockquote {
 	}
 
 	.example .versions {
-	  padding: 6px;
+		padding: 6px;
 	}
 
 	.example .versions img {
-	  width: 46px;
-	  margin: 6px 3px 0 3px;
+		width: 46px;
+		margin: 6px 3px 0 3px;
 	}
 
 	.example .description {
-	  padding: 6px 10px 20px 10px;
-	  font-size: 13pt;
-	  line-height: 1.3em;
-	  color: #fff;
-	  margin-bottom: 14px;
+		padding: 6px 10px 20px 10px;
+		font-size: 13pt;
+		line-height: 1.3em;
+		color: #fff;
+		margin-bottom: 14px;
 	}
 	.blockquote {
 		border-top: none;
