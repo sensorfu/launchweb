@@ -4,8 +4,6 @@ permalink: eu.html
 title: Leverage from the EU for SensorFu Ltd
 ---
 
-<br/>
-
 ![European Regional Development Fund logo](img/eu_eakr.png){: height="150px" }
 ![Leverage from the EU logo](img/leverage_eu.png){: height="150px" }
 
