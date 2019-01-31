@@ -1,0 +1,14 @@
+body {
+    font-family: 'Lato', sans-serif;
+	padding-top: 59px; /* Move content below navbar */
+}
+
+.bg-dark {
+	background-color: #001 !important;
+}
+
+@media screen and (max-width: 991px) {
+	body {
+		padding-top: 56px; /* Move content below navbar */
+	}
+}

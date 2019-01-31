@@ -14,8 +14,11 @@
     <!-- Custom fonts for this template -->
     <link href="css/latoweb.css" rel="stylesheet">
     
-    <!-- Custom styles for this template -->
-    <link href="css/custom.css" rel="stylesheet">
+    {% if page.custom_style == "frontpage" %}
+        <link href="css/frontpage.css" rel="stylesheet">
+    {% else %}
+        <link href="css/default.css" rel="stylesheet">
+    {% endif %}
     
     <!-- Favicon -->
     <link href="favicon.png" rel="icon" type="image/png">
