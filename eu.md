@@ -24,7 +24,7 @@ channels and partnerships for the company.
 
 ## Project
 
-* Project code: A73663
+* Project code: [A73663](https://www.eura2014.fi/rrtiepa/projekti.php?projektikoodi=A73663&lang=en)
 * Project name: SensorFu Oy productization and internationalization project
 * Policy: 2. Production and utilisation of latest knowledge and expertise
 * Specific objective: 3.2. Developing renewable energy and energy-efficient solutions
@@ -40,7 +40,7 @@ channels and partnerships for the company.
 * Telephone number: +358 40 8019800
 * Postal code: 90590
 * City/town: OULU
-* Website: Oulu
+* Website: [https://www.sensorfu.com](https://www.sensorfu.com)
 * Project contact person's name: Kenttälä Mikko
 * Contact person's position in the organisation: CEO
 * Contact person’s email address: mikko.kenttala(at)sensorfu.com
