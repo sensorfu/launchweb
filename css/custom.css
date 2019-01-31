@@ -2,6 +2,7 @@ body {
 	color: #444;
 	line-height: 1.7em;
 	font-family: 'Lato', sans-serif;
+	padding-top: 59px; /* Move content below navbar */
 }
 
 .bg-dark {
@@ -245,6 +246,10 @@ div.aboutus blockquote {
 }
 
 @media screen and (max-width: 991px) {
+	body {
+		padding-top: 56px; /* Move content below navbar */
+	}
+
 	.hero h2 {
 		font-size: 32pt;
 	}
